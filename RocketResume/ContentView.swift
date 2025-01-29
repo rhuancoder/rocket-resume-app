@@ -9,9 +9,10 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack(spacing: 0) {
+        VStack(alignment: .leading, spacing: 0) {
             Text("Rhuan Carvalho")
-                .font(.largeTitle)
+               .font(.largeTitle)
+               .italic()
             
             Spacer()
             
@@ -20,6 +21,7 @@ struct ContentView: View {
             Rectangle()
                 .frame(height: 1)
                 .foregroundColor(.gray)
+                .padding(.bottom)
             
             Spacer()
             
@@ -28,6 +30,18 @@ struct ContentView: View {
             Rectangle()
                 .frame(height: 1)
                 .foregroundColor(.gray)
+                .padding(.bottom)
+            
+            Text("Infnet")
+            Text("Postgraduate Degree - MIT")
+            Text("Software Architecture")
+            Text("2022 - 2023")
+                .padding(.bottom)
+            
+            Text("Estacio")
+            Text("Bachelor's Degree")
+            Text("Information Systems")
+            Text("2012 - 2016")
             
             Spacer()
             
